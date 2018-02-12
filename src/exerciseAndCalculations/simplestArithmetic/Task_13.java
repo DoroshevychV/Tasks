@@ -22,6 +22,5 @@ public class Task_13 {
         //step five : step_1-step_4
         double result = step_1-step_4;
         System.out.println(result);
-
     }
 }
