@@ -14,19 +14,15 @@ public class Task_16 {
     public void task(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Write number one: ");
-        int num_1 = scanner.nextInt();
+        int num_1 = scanner.nextInt()*2;
         System.out.println("Write number two: ");
-        int num_2 = scanner.nextInt();
+        int num_2 = scanner.nextInt()-3;
         System.out.println("Write number three: ");
-        int num_3 = scanner.nextInt();
-        int resultNum_1 = num_1 * 2;
-        int resultNum_2 = num_2 - 3;
-        int resultNum_3 = (int) Math.pow(num_3,2);
-        int result = resultNum_1+resultNum_2+resultNum_3;
-        System.out.println("Result one: "+resultNum_1+"\n"
-        +"Result two: "+ resultNum_2+"\n"
-        +"Result three: "+ resultNum_3+"\n"
-        +"Result: "+result);
-
+        int num_3 = (int) Math.pow(scanner.nextInt(),2);
+        int sum = num_1+num_2+num_3;
+        System.out.println("Result one: "+num_1+"\n"
+                +"Result two: "+ num_2+"\n"
+                +"Result three: "+ num_3+"\n"
+                +"Result: "+sum);
     }
 }
