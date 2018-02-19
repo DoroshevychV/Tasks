@@ -25,6 +25,5 @@ public class Task_21 {
         System.out.println("Hypotenuse = "+hypotenuse);
         System.out.println("Area = "+area);
         System.out.println("Perimeter = "+perimeter);
-
     }
 }
