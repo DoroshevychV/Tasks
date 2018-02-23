@@ -6,9 +6,12 @@
  */
 package exerciseAndCalculations.simplestArithmetic;
 
+import exerciseAndCalculations.Task;
+
 import java.util.Scanner;
 
-public class Task_20 {
+public class Task_20 implements Task {
+    @Override
     public void task(){
         Scanner scanner = new Scanner(System.in);
         int time,distance;

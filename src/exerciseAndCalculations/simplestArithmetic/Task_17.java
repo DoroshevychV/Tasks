@@ -7,9 +7,12 @@
  */
 package exerciseAndCalculations.simplestArithmetic;
 
+import exerciseAndCalculations.Task;
+
 import java.util.Scanner;
 
-public class Task_17 {
+public class Task_17 implements Task {
+    @Override
     public void task(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Write number one: ");

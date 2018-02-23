@@ -8,9 +8,12 @@
  */
 package exerciseAndCalculations.simplestArithmetic;
 
+import exerciseAndCalculations.Task;
+
 import java.util.Scanner;
 
-public class Task_23 {
+public class Task_23 implements Task {
+    @Override
     public void task(){
         double x,a,y,k;
         Scanner scanner = new Scanner(System.in);

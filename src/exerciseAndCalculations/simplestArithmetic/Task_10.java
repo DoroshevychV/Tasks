@@ -6,7 +6,10 @@
  */
 package exerciseAndCalculations.simplestArithmetic;
 
-public class Task_10 {
+import exerciseAndCalculations.Task;
+
+public class Task_10 implements Task {
+    @Override
     public void task(){
         double x= 1.7d;
         double pow = Math.pow((x+1),2);

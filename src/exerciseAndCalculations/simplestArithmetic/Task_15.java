@@ -5,9 +5,12 @@
  */
 package exerciseAndCalculations.simplestArithmetic;
 
+import exerciseAndCalculations.Task;
+
 import java.util.Scanner;
 
-public class Task_15 {
+public class Task_15 implements Task {
+    @Override
     public void task(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Write number:");

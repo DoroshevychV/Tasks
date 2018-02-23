@@ -7,10 +7,12 @@
 
 package exerciseAndCalculations.workingWithTheСonsole;
 
-import java.util.Calendar;
-import java.util.Date;
+import exerciseAndCalculations.Task;
 
-public class Task_2 {
+import java.util.Calendar;
+
+public class Task_2 implements Task {
+    @Override
     public void task(){
         Calendar calendar = Calendar.getInstance();
         System.out.println(calendar.get(Calendar.DAY_OF_MONTH));

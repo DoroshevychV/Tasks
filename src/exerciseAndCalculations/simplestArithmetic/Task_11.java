@@ -6,7 +6,10 @@
  */
 package exerciseAndCalculations.simplestArithmetic;
 
-public class Task_11 {
+import exerciseAndCalculations.Task;
+
+public class Task_11 implements Task {
+    @Override
     public void task(){
         float x = -2.34f;
         //first step: (|X−5|−sinX)/3

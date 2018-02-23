@@ -4,7 +4,10 @@
  */
 package exerciseAndCalculations.workingWithTheСonsole;
 
-public class Task_5 {
+import exerciseAndCalculations.Task;
+
+public class Task_5 implements Task{
+    @Override
     public void task() {
         for (int i = 0; i < 4; i++) {
             if (i == 0) {

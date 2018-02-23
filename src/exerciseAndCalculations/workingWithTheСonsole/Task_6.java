@@ -4,7 +4,10 @@
  */
 package exerciseAndCalculations.workingWithTheСonsole;
 
-public class Task_6 {
+import exerciseAndCalculations.Task;
+
+public class Task_6 implements Task {
+    @Override
     public void task(){
         System.out.println("1+2-4 = "+((1+2)-4));
     }

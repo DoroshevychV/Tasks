@@ -6,10 +6,12 @@
  */
 package exerciseAndCalculations.simplestArithmetic;
 
+import exerciseAndCalculations.Task;
+
 import java.util.Scanner;
 
-public class Task_21 {
-
+public class Task_21 implements Task {
+    @Override
     public void task(){
         Scanner scanner = new Scanner(System.in);
         int a,b;

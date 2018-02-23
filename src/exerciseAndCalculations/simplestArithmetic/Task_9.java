@@ -5,7 +5,10 @@
  */
 package exerciseAndCalculations.simplestArithmetic;
 
-public class Task_9 {
+import exerciseAndCalculations.Task;
+
+public class Task_9 implements Task{
+    @Override
     public void task(){
         int x = -2;
         int result = (int) (-x + (Math.pow(x,5)));

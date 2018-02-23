@@ -6,7 +6,10 @@
  */
 package exerciseAndCalculations.workingWithTheСonsole;
 
-public class Task_4 {
+import exerciseAndCalculations.Task;
+
+public class Task_4 implements Task{
+    @Override
     public void task(){
         for(int i = 0;i<5;i++){
             for (int j = 0;j<8;j++){

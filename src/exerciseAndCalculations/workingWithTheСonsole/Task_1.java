@@ -5,7 +5,10 @@
  */
 package exerciseAndCalculations.workingWithTheСonsole;
 
-public class Task_1 {
+import exerciseAndCalculations.Task;
+
+public class Task_1 implements Task {
+    @Override
     public void task(){
         System.out.println("Silence is golden");
     }

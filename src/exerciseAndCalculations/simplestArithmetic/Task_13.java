@@ -5,7 +5,10 @@
  */
 package exerciseAndCalculations.simplestArithmetic;
 
-public class Task_13 {
+import exerciseAndCalculations.Task;
+
+public class Task_13 implements Task{
+    @Override
     public void task(){
         double a = 0.1d;
         double b = 0.2d;

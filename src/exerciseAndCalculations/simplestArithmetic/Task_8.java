@@ -6,7 +6,10 @@
  */
 package exerciseAndCalculations.simplestArithmetic;
 
-public class Task_8 {
+import exerciseAndCalculations.Task;
+
+public class Task_8 implements Task{
+    @Override
     public void task(){
         int a=2,b=3;
         int result = (int) ((a+(4*b))*(a-(3*b))+(Math.pow(a, 2)));
