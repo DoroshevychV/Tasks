@@ -1,5 +1,10 @@
 package exerciseAndCalculations.simplestArithmetic;
-
+/**
+ * @author Vadym Doroshevych
+ *
+ * @task Даны две переменных с некоторыми значениями.
+ * Поменять местами значения этих переменных
+ */
 import exerciseAndCalculations.Task;
 import exerciseAndCalculations.scanner.Sc;
 
