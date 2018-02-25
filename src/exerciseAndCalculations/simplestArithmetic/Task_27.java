@@ -46,6 +46,7 @@ public class Task_27 implements Task {
         c = cloneA+cloneB+cloneC;
 
         System.out.println("Variable a = "+a+"\nVariable b = "+b+"\nVariable c = "+c);
+        Sc.scanner.close();
     }
 
     public int getA() {

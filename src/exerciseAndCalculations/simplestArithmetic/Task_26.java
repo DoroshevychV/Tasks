@@ -37,6 +37,7 @@ public class Task_26 implements Task {
         varThree = null;
 
         System.out.println("var one = "+varOne+"\nvar two = "+varTwo);
+        Sc.scanner.close();
     }
 
     public String getVarOne() {
